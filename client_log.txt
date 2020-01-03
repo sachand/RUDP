@@ -1,0 +1,64 @@
+01:29:22 I\ Client               20817  1 Server IP: 130.245.1.184
+01:29:22 I\ Client               20817  1 Port Number: 47991
+01:29:22 I\ Client               20817  1 File: dummy
+01:29:22 I\ Client               20817  1 Window Size: 32
+01:29:22 I\ Client               20817  1 Seed: 37563
+01:29:22 I\ Client               20817  1 Datagram Loss Probability: 0.200000
+01:29:22 I\ Client               20817  1 Mean Read gap: 500
+01:29:22 I\ Endpoint             20817  1 Analyzing interface: lo0
+01:29:22 I\ Endpoint             20817  1 Analyzing interface index: 0 
+01:29:22 I\ Endpoint             20817  1 Analyzing interface: bge0
+01:29:22 I\ Endpoint             20817  1 Analyzing interface index: 0 
+01:29:22 S\ ClientConnect        20817  1 Server not on the same subnet. Binding with arbitrary interface: Network Address: 130.245.6.30/24
+01:29:22 S\ ClientConnect        20817  1 Connected to server with: 130.245.6.30:40377 130.245.1.184:47991
+01:29:22 S\ ClientHShake         20817  1 Initiating handshake on: 130.245.6.30:40377 130.245.1.184:47991
+01:29:22 S\ Client               20817  1 Dropping during SEND Sequence# -1 Flags: _FILENAME_
+01:29:23 S\ CtlMsgHandler        20817  1 Did not receive anything from other end after 1 tries.
+01:29:23 S\ MsgHeader            20817  1 SEND Seq=4294967295 Ack=4294967295 Flags=_FILENAME_ Win=65535 Len=5
+01:29:23 S\ MsgHeader            20817  1 RECV Seq=968625286 Ack=4294967295 Flags=_SYN_ Win=16 Len=2
+01:29:23 S\ ClientHShake         20817  1 Got new port from server: 34882. Switching connection.
+01:29:23 S\ Client               20817  1 Dropping during SEND Sequence# 1726885912 Flags: _SYN_ACK_
+01:29:24 S\ SockCommon           20817  1 Dropping during RECV Sequence# 968625286 Flags: _SYN_
+01:29:24 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625287 Flags=_SYN_ACK_ Win=32 Len=0
+01:29:24 S\ SockCommon           20817  1 Dropping during RECV Sequence# 968625287 Flags: _
+01:29:26 S\ Client               20817  1 Dropping during SEND Sequence# 1726885912 Flags: _SYN_ACK_
+01:29:27 S\ ClientHShake         20817  1 Handshake successful
+
+
+
+01:29:27 S\ RecvChannelHdlr      20817  1 Socket Reader started
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625287 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625288 Flags=_ACK_ Win=31 Len=0
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625288 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625289 Flags=_ACK_ Win=30 Len=0
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625289 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625290 Flags=_ACK_ Win=29 Len=0
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625290 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625291 Flags=_ACK_ Win=28 Len=0
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625291 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625292 Flags=_ACK_ Win=27 Len=0
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625292 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625293 Flags=_ACK_ Win=26 Len=0
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625293 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625294 Flags=_ACK_ Win=25 Len=0
+01:29:27 S\ SockCommon           20817  1 Dropping during RECV Sequence# 968625294 Flags: _
+01:29:27 S\ SockCommon           20817  1 Dropping during RECV Sequence# 968625295 Flags: _
+01:29:27 S\ MsgHeader            20817  1 RECV Seq=968625296 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:27 S\ Client               20817  1 Dropping during SEND Sequence# 1726885912 Flags: _ACK_
+01:29:27 S\ SockCommon           20817  1 Dropping during RECV Sequence# 968625297 Flags: _
+01:29:28 S\ MsgHeader            20817  1 RECV Seq=968625294 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:28 S\ Client               20817  1 Dropping during SEND Sequence# 1726885912 Flags: _ACK_
+01:29:30 S\ MsgHeader            20817  1 RECV Seq=968625294 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:30 S\ RecvChannelHdlr      20817  1 Too advanced or too old buffer arrived. Discarding
+01:29:30 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625295 Flags=_ACK_ Win=30 Len=0
+01:29:31 S\ MsgHeader            20817  1 RECV Seq=968625295 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:31 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625297 Flags=_ACK_ Win=30 Len=0
+01:29:31 S\ MsgHeader            20817  1 RECV Seq=968625298 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:31 S\ MsgHeader            20817  1 SEND Seq=1726885912 Ack=968625297 Flags=_ACK_ Win=28 Len=0
+01:29:34 S\ MsgHeader            20817  1 RECV Seq=968625297 Ack=1726885913 Flags=_ Win=16 Len=496
+01:29:34 S\ Client               20817  1 Dropping during SEND Sequence# 1726885912 Flags: _ACK_
+01:29:40 S\ SockCommon           20817  1 Dropping during RECV Sequence# 968625297 Flags: _
+01:29:52 S\ SockCommon           20817  1 Dropping during RECV Sequence# 968625297 Flags: _
+01:30:24 S\ RecvChannelHdlr      20817  1 Did not receive anything on the socket for 45 seconds. Quitting
+01:30:24 I\ RecvChannelHdlr      20817  1 Channel receiver dying. Error: ETIMEDOUT
+01:30:26 S\ FileExtractor        20817  3 Total Bytes received: 5952

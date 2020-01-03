@@ -1,0 +1,3 @@
+#!bin/bash
+
+~cse533/handin 2 Makefile README.txt app_settings.h channel_provider.c channel_provider.h channel_wrapper.c client.c client_handshake.c client_server_connector.c congestion_control_5681_2581.c ctl_message_handler.c endpoint.c endpoint.h extras.c extras.h file_extractor.c file_printer.c file_sender.c get_ifi_info_plus.c logger.c logger.h msg_header.c msg_header.h np_time.c np_time.h prifinfo_plus.c queue.c queue.h recv_channel_handler.c retransmission_timer_6298.c retransmission_timer_6298.h retransmitter_prober.c send_channel_handler.c server.c server_handshake.c server_hub_creator.c server_hub_manager.c server_worker_compute.c server_workers.c server_workers.h socket_binder.c socket_common.c socket_common.h unpifiplus.h
